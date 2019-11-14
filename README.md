@@ -16,12 +16,12 @@ Insights
 
 # **MVC**
 
-*You can define a index.html in your static resources, by default, it will be displayed for the root route if haven't specified a controller to handle it.
+* You can define a index.html in your static resources, by default, it will be displayed for the root route if haven't specified a controller to handle it.
 
-*Should use @RestController if want to return data as a response, if you want to return a view, should use @Controller.
+* Should use @RestController if want to return data as a response, if you want to return a view, should use @Controller.
 
-*Dependency management:
-*If you want to include dependecies like Jquery or Bootstrap, you have 3 options.
+* Dependency management:
+* If you want to include dependecies like Jquery or Bootstrap, you have 3 options.
     1. Include them manually.
     2. Use the webjar approch to let maven handle this task. (WebJars are client-side libraries packaged into JAR file).
     https://www.webjars.org/
