@@ -21,9 +21,11 @@ Insights
 -Should use @RestController if want to return data as a response, if you want to return a view, should use @Controller
 
 Dependency management
-If you want to include dependecies like Jquery or Bootstrap, you have 2 options.
-    -Include them manually
-    -Use the webjar approch to let maven handle this task.
+If you want to include dependecies like Jquery or Bootstrap, you have 3 options.
+    1-Include them manually
+    2-Use the webjar approch to let maven handle this task. (WebJars are client-side libraries packaged into JAR file)
+    https://www.webjars.org/
+    3- Use bower (package manager)
     
 
 
