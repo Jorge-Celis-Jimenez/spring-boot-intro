@@ -7,11 +7,14 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 
 @ControllerAdvice
 public class ExceptionControllerAdvice {
+	//ControllerAdvice is some of advice for all the controller classes.
+	//Here you can define code which would be use by any controller
 
 	@ExceptionHandler(Exception.class)
 	public String exception(Exception exception, Model model){
 		model.addAttribute("exception", exception);
-		return "globalControllerHandler";
+		return "errorHandler";
+		//return "globalControllerHandler";
 	}
 	
 }
