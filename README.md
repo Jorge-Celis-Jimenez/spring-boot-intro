@@ -36,6 +36,10 @@ Insights
  * This dependency can be added using the spring initializer
  * Allow us to use layout, fragments and other nice stuff
  
+  ### Internationalization
+  
+ * **Spring Boot 1.3.7** is enough to overwrite the env variable **spring.mvc.locale**. For next versions, maybe need to do something else. https://www.danvega.dev/blog/2017/06/21/spring-boot-properties-setting-locale/
+ 
  ### GSP Template
  * Need to add (manually) 4 dependencies
     
