@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--  *** Things to do in order to use thymeleaf
+    Add the name space in your html file
+ -->
 <html lang="en"
       xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymleaf.org">
@@ -8,9 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <!--  Page Title th:text="${pageTitle}" -->
+    <!--  **** using the expression ${} to access an attibute storaged in the model, which was pass to this view in the
+    controller method that handle the request (list method)} -->
     <title th:text="${pageTitle}">Blog Post - List</title>
 
-    <!-- CSS th:href="@{/css/blog.css}" -->
+    <!-- CSS th:href="@{/css/blog.css}" also notice is using the bootstrap dependency in internet -->
     <link rel="stylesheet" href="../static/css/blog.css" th:href="@{/css/blog.css}"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
 
