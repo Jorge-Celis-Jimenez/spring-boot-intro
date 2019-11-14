@@ -39,10 +39,13 @@ Insights
  ### GSP Template
  * Need to add (manually) 4 dependencies
  
-   ### Internationalization
+ ### Internationalization
   
  * **Spring Boot 1.3.7** is enough to overwrite the env variable **spring.mvc.locale**. For next versions, maybe need to do something else. https://www.danvega.dev/blog/2017/06/21/spring-boot-properties-setting-locale/
-    
+ 
+### Error handling
+* If you define a **error.html**, that template is going to be used as a **general error handler**
+
 
 
 
