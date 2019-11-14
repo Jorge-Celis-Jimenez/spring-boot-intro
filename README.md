@@ -19,6 +19,7 @@ Insights
 * You can define a index.html in your static resources, by default, it will be displayed for the root route if haven't specified a controller to handle it.
 
 * Should use @RestController if want to return data as a response, if you want to return a view, should use @Controller.
+* The **index.html** file, if placed in the folder /src/main/resources/static, will be displayed when you visit the base path http://localhost:8080
 
 ### Dependency management:
 * If you want to include dependecies like Jquery or Bootstrap, you have 3 options.
@@ -29,8 +30,12 @@ Insights
     
  ### Template Engines
  
- ###Thymeleaf
+ ### Thymeleaf
+ * This dependency can be added using the spring initializer
  * Allow us to use layout, fragments and other nice stuff
+ 
+ ### GSP Template
+ * Need to add (manually) 4 dependencies
     
 
 
