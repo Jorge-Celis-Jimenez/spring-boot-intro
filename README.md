@@ -5,16 +5,16 @@ This is a repository that will contain all of the code for my Spring Boot Introd
 
 Insights
 
-######################################    Core       ########################################
+ # **Core**     
 
 -Should use the setter injection approach in order to ease testing activities.
 -Can define properties using 3 approaches.
-     1.-Properties file
-     2.-YML properties file (Superset of JSON)
+     1. Properties file
+     2. YML properties file (Superset of JSON)
      
 
 
-######################################    MVC       ########################################
+# **MVC**
 
 -You can define a index.html in your static resources, by default, it will be displayed for the root route if haven`t    specified a controler to handle it.
 
