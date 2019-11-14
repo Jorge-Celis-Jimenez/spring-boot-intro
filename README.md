@@ -30,6 +30,8 @@ Insights
     
  ### Template Engines
  
+ * **JSPs should be avoided if possible**, there are several known limitations when using them with embedded servlet containers.
+ 
  ### Thymeleaf
  * This dependency can be added using the spring initializer
  * Allow us to use layout, fragments and other nice stuff
